@@ -30,10 +30,12 @@ export class Stock {
   }
 
   // Produits en alerte : quantité inférieure ou égale au seuil
-  alertes() {
-    return this.lister()
+  alertes({ seulementCritiques = false } = {}) {
+    const resultat = this.lister()
       .filter((p) => p.quantite < p.seuil)
+      .map((p) => ({ ...p, critique: p.quantite === 0 }))
       .sort((a, b) => a.quantite - b.quantite);
+    return seulementCritiques ? resultat.filter((p) => p.critique) : resultat;
   }
 
   // Valeur totale du stock selon une table de prix { ref: prix }
