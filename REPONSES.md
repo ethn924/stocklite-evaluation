@@ -1,5 +1,15 @@
 # Réponses — chasse au trésor
 
+## Note sur l'usage de l'IA
+
+Corentin indisponible ce soir (urgence). Pour la Partie 5 (CI/CD),
+j'ai utilisé Claude Code comme outil d'aide, sous ma direction et avec
+ma validation à chaque étape sensible (fusion des PR, modification des
+règles du dépôt, création du tag) : mise en place des workflows GitHub
+Actions (CI, release), correction du bug des alertes avec test de
+non-régression, bump de version. Parties 1 à 4 réalisées entièrement
+par Ethan et Corentin.
+
 <!-- Format imposé, une réponse par ligne :
 Q01: <réponse>
 commande: <commande(s) utilisée(s)>
