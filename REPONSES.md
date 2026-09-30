@@ -2,9 +2,9 @@
 
 ## Note sur l'usage de l'IA
 
-Corentin occupé ce soir. J'ai aussi rencontré des
+Corentin était présent. Nous avons rencontré de grosses
 difficultés sur cette partie (workflows GitHub Actions, rulesets), ce
-qui m'a poussé à me faire aider. Pour la Partie 5 (CI/CD),
+qui nous a poussés à nous faire aider. Pour la Partie 5 (CI/CD),
 j'ai utilisé Claude Code comme outil d'aide, sous ma direction et avec
 ma validation à chaque étape sensible (fusion des PR, modification des
 règles du dépôt, création du tag) : mise en place des workflows GitHub
