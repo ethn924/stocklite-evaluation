@@ -5,7 +5,7 @@ export function formaterLigne(p) {
   return `${p.ref} — ${p.nom} : ${p.quantite} ${unite}${alerte}`;
   
 }
-  
+
 export function formaterTableau(produits) {
   return produits.map(formaterLigne).join('\n');
 }
