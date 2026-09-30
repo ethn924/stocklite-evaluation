@@ -1,7 +1,7 @@
 // Mise en forme d'une ligne de stock pour l'affichage console
 export function formaterLigne(p) {
-  const alerte = p.quantite <= p.seuil ? ' ⚠' : '';
-  return `${p.ref} — ${p.nom} : ${p.quantite} u${alerte}`;
+  const unite = p.unite ?? 'u';
+  return `${p.ref} — ${p.nom} : ${p.quantite} ${unite}`;
 }
 
 export function formaterTableau(produits) {
