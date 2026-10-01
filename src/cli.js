@@ -5,8 +5,6 @@ import { chargerExemple } from './outils.js';
 const stock = chargerExemple(new Stock());
 const commande = process.argv[2] ?? 'lister';
 
-console.log('Bienvenue dans StockLite !');
-
 switch (commande) {
   case 'lister':
     console.log(formaterTableau(stock.lister()));
